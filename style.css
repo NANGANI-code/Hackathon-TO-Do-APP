@@ -1,0 +1,82 @@
+.sidenav {
+    height: 100%;
+    width: 250px;
+    background-color:rgb(238, 231, 231);
+    color: white;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    transition: all 0.3s;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.header {
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.sidenav a {
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.main {
+    margin-left: 250px;
+    padding: 0px 10px;
+    font-size: 25px
+}
+.sidenav a:hover {
+    color: black;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    background-color: gray;
+}
+.footer{
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+}
+.content textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
